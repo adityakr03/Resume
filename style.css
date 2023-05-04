@@ -5,7 +5,7 @@ body {
     /* background-color: #cbe0dc; */
     background-image: url("images/background.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
     font-size: 16px;

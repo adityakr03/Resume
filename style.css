@@ -1,0 +1,98 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main */
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Section */
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  /* Sub-section */
+  .sub-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Text */
+  .text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Link */
+  .link {
+    color: #0077c2;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* List */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "•";
+    margin-right: 5px;
+    color: #0077c2;
+  }
+  
+  /* Achievements */
+  .achievement {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #0077c2;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+  }
+  

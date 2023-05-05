@@ -12,11 +12,10 @@ body {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(219, 203, 203, 0.7));
-    padding: 1px;
+    padding-top: 0;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     font-family: 'Bruno Ace SC';
-    text-align: center;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -27,9 +26,11 @@ header {
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    text-align: center;
     color: #2c3e50;
-    padding-left: 5px;
+    padding-left: 0;
+    padding-bottom: 8%;
+    padding-top: 0;
+    text-align: center;
 }
 
 h3 {
@@ -54,6 +55,7 @@ table {
     border-spacing: 0;
     font-size: inherit;
     color: rgb(78, 75, 75);
+    padding: 0px;
 }
 
 table:hover {
@@ -63,6 +65,23 @@ table:hover {
 td {
     padding-left: 1rem;
 }
+
+table td img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+  }
+  
+  table td:hover img {
+    transform: scale(1.1);
+  }
+  
+  table td:hover p {
+    text-align: justify;
+    transition: all 0.5s ease-in-out;
+  }
   
 p {
     margin-top: 10px;
@@ -110,6 +129,19 @@ hr {
     width: 50%;
 }
 
-img{
+img {
     width: 80px;
 }
+
+img {
+    width: 80px;
+  }
+  
+  img:hover + #hi {
+    display: block;
+    transition: all 0.5s ease;
+  }
+  
+  #hi {
+    display: none;
+  }

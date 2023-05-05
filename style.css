@@ -39,6 +39,12 @@ h3 {
     color: #2c3e50;
     padding-left: 5px;
     font-family: 'Bruno Ace SC';
+    transition: font-size 0.25s ease-in-out;
+}
+
+
+h3:hover {
+    font-size: 28px;
 }
 
 table {
@@ -47,7 +53,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     font-size: inherit;
-  }
+    color: rgb(78, 75, 75);
+}
+
+table:hover {
+    color: #000202;
+}
   
 td {
     padding-left: 1rem;
@@ -59,6 +70,8 @@ p {
     color: #2c3e50;
     padding-left: 20px;
     padding-right: 15px;
+    text-align: center; /* set the default text alignment */
+    transition: text-align 0.5s ease; /* set the transition effect */
 }
 
 ul {
@@ -67,6 +80,11 @@ ul {
     padding-left: 40px;
     padding-right: 15px;
     color: #49043a;
+    transition: color 0.5s ease-in-out;
+}
+
+ul:hover {
+    color: #ec2020;
 }
 
 li {

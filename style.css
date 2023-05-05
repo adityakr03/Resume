@@ -27,8 +27,13 @@ h1 {
     font-size: 36px;
     margin-bottom: 10px;
     color: #2c3e50;
-    padding-left: 0;
+    padding-left: 4%;
     padding-top: 0;
+    transition: font-size 0.2s ease-in-out;
+}
+
+h1:hover{
+    font-size: 250%;
 }
 
 h3 {
@@ -69,11 +74,11 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
   }
   
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
 
   
@@ -84,7 +89,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center; /* set the default text alignment */
-    transition: text-align 0.5s ease; /* set the transition effect */
+    transition: text-align 0.2s ease; /* set the transition effect */
 }
 
 ul {
@@ -93,7 +98,7 @@ ul {
     padding-left: 40px;
     padding-right: 15px;
     color: #49043a;
-    transition: color 0.5s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 ul:hover {
@@ -126,16 +131,3 @@ hr {
 img {
     width: 80px;
 }
-
-img {
-    width: 80px;
-  }
-  
-  img:hover + #hi {
-    display: block;
-    transition: all 0.5s ease;
-  }
-  
-  #hi {
-    display: none;
-  }

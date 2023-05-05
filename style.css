@@ -46,7 +46,6 @@ h3 {
     transition: font-size 0.25s ease-in-out;
 }
 
-
 h3:hover {
     font-size: 255%;
 }

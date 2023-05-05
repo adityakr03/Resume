@@ -10,8 +10,7 @@ body {
     font-family: 'Comfortaa';
 }
 
-  /* Header */
-  .header {
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(219, 203, 203, 0.7));
     padding: 1px;
     border-bottom-left-radius: 100%;

@@ -13,7 +13,7 @@ body {
   /* Header */
   .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(219, 203, 203, 0.7));
-    padding: 5px;
+    padding: 1px;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     font-family: 'Bruno Ace SC';

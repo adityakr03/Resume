@@ -49,13 +49,10 @@ table {
     font-size: inherit;
   }
   
-  td {
+td {
     padding-left: 1rem;
-  }
+}
   
-
-
-
 p {
     margin-top: 10px;
     margin-bottom: 20px;

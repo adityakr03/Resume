@@ -3,7 +3,8 @@ body {
     margin: 0;
     /* padding: 20px; */
     /* background-color: #cbe0dc; */
-    background-image: url("images/background.png");
+    /* background-image: url("images/background.png"); */
+    background-image: linear-gradient(rgb(106, 230, 209), rgb(209, 209, 97), rgb(117, 207, 117));
     background-repeat: no-repeat;
     background-size: cover;
     color: #333;
@@ -19,6 +20,7 @@ body {
     padding: 5px;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
+    font-family: 'Bruno Ace SC', cursive;
     text-align: center;
     position: -webkit-sticky;
     position: sticky;

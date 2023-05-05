@@ -47,6 +47,10 @@ h3 {
     font-family: 'Bruno Ace SC';
 }
 
+td {
+    padding-left: 20px; /* Adjust the padding value as needed */
+  }
+
 p {
     margin-top: 10px;
     margin-bottom: 20px;

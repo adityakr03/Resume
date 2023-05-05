@@ -42,9 +42,20 @@ h3 {
     font-family: 'Bruno Ace SC';
 }
 
-td {
-    padding-left: 20px; /* Adjust the padding value as needed */
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
   }
+  
+  td {
+    padding-left: 1rem;
+  }
+  
+
+
 
 p {
     margin-top: 10px;

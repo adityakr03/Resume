@@ -25,6 +25,7 @@ header {
 
 h1 {
     font-size: 36px;
+    text-decoration: underline dashed;
     margin-bottom: 10px;
     color: #2c3e50;
     padding-left: 4%;
@@ -43,6 +44,7 @@ h3 {
     color: #2c3e50;
     padding-left: 5px;
     font-family: 'Bruno Ace SC';
+    text-decoration: underline dashed;
     transition: font-size 0.25s ease-in-out;
 }
 
@@ -113,10 +115,10 @@ li {
 
 a {
     color: #2980b9;
+    text-decoration: underline dotted;
 }
 
 a:hover {
-    text-decoration: underline;
     color: blue;
 }
 
@@ -130,4 +132,24 @@ hr {
 
 img {
     width: 80px;
+}
+
+.squicircle-bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: rgba(166, 203, 233, 0.301);
+    border-radius: 35px; /* Adjust the second value to control the squircle shape */
+    font-size: 24px;
+    color: rgb(80, 30, 30);
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 2%;
+  }
+
+hr{
+    width: auto;
+    border: #000202;
 }

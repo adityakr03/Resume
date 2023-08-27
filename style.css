@@ -3,7 +3,7 @@ body {
     padding: 0;
     /* background-image: linear-gradient(rgb(106, 230, 209), rgb(209, 209, 97), rgb(117, 207, 117)); */
     background-repeat: no-repeat;
-    background-size: cove;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
     font-size: 16px;

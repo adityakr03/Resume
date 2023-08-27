@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgb(106, 230, 209), rgb(209, 209, 97), rgb(117, 207, 117));
+    /* background-image: linear-gradient(rgb(106, 230, 209), rgb(209, 209, 97), rgb(117, 207, 117)); */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cove;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(219, 203, 203, 0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(139, 247, 238, 0.7));
     padding-top: 0;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
@@ -73,7 +73,7 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
   }
   
 img:hover {
@@ -88,7 +88,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center; /* set the default text alignment */
-    transition: text-align 0.2s ease; /* set the transition effect */
+    transition: text-align 0.2s ease-in-out; /* set the transition effect */
 }
 
 ul {
@@ -111,7 +111,6 @@ li {
 
 a {
     color: #2980b9;
-    text-decoration: none;
 }
 
 a:hover {

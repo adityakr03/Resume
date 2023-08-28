@@ -22,7 +22,6 @@ header {
     box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.4);
     z-index: 2;
     backdrop-filter: blur(6px);
-    /* Ensure header is on top */
 }
 
 h1,
@@ -168,13 +167,11 @@ img {
     backdrop-filter: blur(7px);
     border-radius: inherit;
     z-index: -1;
-    /* Place it behind .squicircle-bubble */
 }
 
 .squicircle-bubble {
     position: relative;
     z-index: 1;
-    /* Ensure squicircle is below header */
     display: flex;
     justify-content: center;
     align-items: center;

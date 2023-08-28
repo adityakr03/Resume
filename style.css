@@ -6,7 +6,6 @@ body {
     background-image: url('images/background.jpg');
     color: #333;
     line-height: 1.6;
-    /* font-size: 16px; */
     font-size: 2vmin;
     font-family: 'Comfortaa';
     font-weight: 600;
@@ -30,7 +29,6 @@ h3 {
 }
 
 h1 {
-    /* font-size: 36px; */
     font-size: 3.5vmin;
     text-decoration: underline dashed;
     margin-bottom: 1vmin;
@@ -97,12 +95,9 @@ img:hover {
 
 .image-container {
     display: inline-block;
-    /* Keeps the container's size based on the image */
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     border-radius: 50%;
-    /* Makes the container and image circular */
     overflow: hidden;
-    /* Ensures the shadow is visible within the circular shape */
     max-width: 100%;
     height: auto;
     margin: 0 auto;
@@ -161,9 +156,7 @@ img {
     width: auto;
     height: auto;
     background-color: rgba(166, 203, 233, 0.301);
-    border-radius: 35px;
-    /* Adjust the second value to control the squircle shape */
-    font-size: 20px;
+    border-radius: 15vmin;
     color: rgb(80, 30, 30);
     text-align: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);

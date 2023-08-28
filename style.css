@@ -13,11 +13,10 @@ body {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(139, 247, 238, 0.7));
-    padding-top: 0;
+    padding: 0;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     font-family: 'Bruno Ace SC';
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     box-shadow: 0 15px 15px -1px rgba(0, 0, 0, 0.4);
@@ -50,7 +49,7 @@ h3 {
 }
 
 h3:hover {
-    font-size: 255%;
+    font-size: 200%;
 }
 
 table {
@@ -81,7 +80,7 @@ img {
   }
   
 img:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
   }
 
   
@@ -99,7 +98,6 @@ p {
 ul {
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 40px;
     padding-right: 15px;
     color: #49043a;
     transition: color 0.2s ease-in-out;
@@ -111,7 +109,7 @@ ul:hover {
 
 li {
     margin-bottom: 5px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 a {
@@ -126,9 +124,8 @@ a:hover {
 hr {
     height: 1px;
     background-color: #c05c5c;
-    border: inset;
-    margin: 40px;
-    width: 50%;
+    border: none;
+    margin: 20px;
 }
 
 img {
@@ -143,7 +140,7 @@ img {
     height: auto;
     background-color: rgba(166, 203, 233, 0.301);
     border-radius: 35px; /* Adjust the second value to control the squircle shape */
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(80, 30, 30);
     text-align: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);

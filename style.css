@@ -135,10 +135,6 @@ ul {
     transition: color 0.2s ease-in-out;
 }
 
-ul:hover {
-    color: #ec2020;
-}
-
 li {
     margin-bottom: 5px;
     padding-left: 10px;

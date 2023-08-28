@@ -141,12 +141,8 @@ li {
 }
 
 a {
-    color: #2980b9;
-    text-decoration: underline dotted;
-}
-
-a:hover {
-    color: blue;
+    color: #002cf0;
+    text-decoration: underline;
 }
 
 hr {

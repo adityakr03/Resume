@@ -60,12 +60,14 @@ h3:hover {
 table {
     width: 100%;
     max-width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
     font-size: inherit;
     font-weight: 1000;
     color: rgb(78, 75, 75);
     padding: 0px;
+    margin-bottom: 20px;
 }
 
 table:hover {
@@ -73,7 +75,8 @@ table:hover {
 }
 
 td {
-    padding-left: 1rem;
+    padding: 10px;
+    width: 25%;
 }
 
 img {

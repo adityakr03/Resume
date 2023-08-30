@@ -9,9 +9,9 @@ body {
     font-size: 2vmin;
     font-family: 'Comfortaa';
     font-weight: 600;
-}
-
-header {
+  }
+  
+  header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(139, 247, 238, 0.7));
     padding: 0;
     border-bottom-left-radius: 100%;
@@ -22,14 +22,13 @@ header {
     box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.4);
     z-index: 2;
     backdrop-filter: blur(6px);
-}
-
-h1,
-h3 {
+  }
+  
+  h1, h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 3.5vmin;
     text-decoration: underline dashed;
     margin-bottom: 1vmin;
@@ -37,13 +36,13 @@ h1 {
     padding-left: 4vmin;
     padding-top: 0;
     transition: font-size 0.5s ease-in-out;
-}
-
-h1:hover {
+  }
+  
+  h1:hover {
     font-size: 4.5vmin;
-}
-
-h3 {
+  }
+  
+  h3 {
     font-size: 2.5vmin;
     margin-top: 1.5vmin;
     margin-bottom: 1.5vmin;
@@ -52,13 +51,13 @@ h3 {
     font-family: 'Bruno Ace SC';
     text-decoration: underline dashed;
     transition: font-size 0.5s ease-in-out;
-}
-
-h3:hover {
+  }
+  
+  h3:hover {
     font-size: 3.5vmin;
-}
-
-table {
+  }
+  
+  table {
     width: 100%;
     max-width: 100%;
     border-collapse: collapse;
@@ -68,38 +67,38 @@ table {
     color: rgb(78, 75, 75);
     padding: 0px;
     margin-bottom: 1vmin;
-}
-
-table:hover {
+  }
+  
+  table:hover {
     color: #000202;
-}
-
-td {
+  }
+  
+  td {
     padding: 1vmin;
-}
-
-img {
+  }
+  
+  img {
     max-width: 100%;
     height: auto;
     display: block;
     padding-left: 1.5vmin;
     margin: 0 auto;
     transition: all 0.5s ease-in-out;
-}
-
-#my_image {
+  }
+  
+  #my_image {
     padding: 0;
-}
-
-img:hover {
+  }
+  
+  img:hover {
     transform: scale(130%);
-}
-
-.image-container:hover {
+  }
+  
+  .image-container:hover {
     transform: scale(130%);
-}
-
-.image-container {
+  }
+  
+  .image-container {
     display: inline-block;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     border-radius: 50%;
@@ -108,16 +107,15 @@ img:hover {
     height: auto;
     margin: 0 auto;
     transition: all 0.5s ease-in-out;
-}
-
-.image-container img {
+  }
+  
+  .image-container img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-
-p {
+  }
+  
+  p {
     margin-top: 1vmin;
     margin-bottom: 1.2vmin;
     color: #333;
@@ -125,37 +123,37 @@ p {
     padding-right: 2.5vmin;
     font-weight: 1000;
     text-align: center;
-}
-
-ul {
+  }
+  
+  ul {
     margin-top: 1vmin;
     margin-bottom: 1vmin;
     padding-right: 2vmin;
     color: #49043a;
-}
-
-li {
+  }
+  
+  li {
     margin-bottom: 0.5vmin;
     padding-left: 1vmin;
-}
-
-a {
+  }
+  
+  a {
     color: #002cf0;
     text-decoration: underline;
-}
-
-hr {
+  }
+  
+  hr {
     height: 0.2vmin;
     background-color: #c05c5c;
     border: none;
     margin: 2vmin;
-}
-
-img {
+  }
+  
+  img {
     width: 8vmin;
-}
-
-.squicircle-bubble::before {
+  }
+  
+  .squicircle-bubble::before {
     content: "";
     position: absolute;
     top: 0;
@@ -167,9 +165,9 @@ img {
     backdrop-filter: blur(7px);
     border-radius: inherit;
     z-index: -1;
-}
-
-.squicircle-bubble {
+  }
+  
+  .squicircle-bubble {
     position: relative;
     z-index: 1;
     display: flex;
@@ -183,19 +181,20 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15);
     margin: 2vmin;
     padding: 1vmin;
-}
-
-.objective-container h3 {
+  }
+  
+  .objective-container h3 {
     display: flex;
     align-items: center;
     margin: 0;
-}
-
-hr {
+  }
+  
+  hr {
     width: auto;
     border: #000202;
-}
-
-.container {
+  }
+  
+  .container {
     position: relative;
-}
+  }
+  

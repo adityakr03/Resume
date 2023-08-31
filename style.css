@@ -191,7 +191,7 @@ img {
   display: flex;
   align-items: center;
   margin: 0;
-  animation: flip 2s;
+  animation: rubberBand 3s;
 }
 
 hr {

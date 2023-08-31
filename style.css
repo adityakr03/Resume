@@ -40,8 +40,6 @@ h1 {
   transition: font-size 0.5s ease-in-out;
 }
 
-
-
 h1:hover {
   font-size: 4.5vmin;
 }
@@ -70,10 +68,6 @@ table {
   color: rgb(78, 75, 75);
   padding: 0px;
   margin-bottom: 1vmin;
-}
-
-table:hover {
-  color: #000202;
 }
 
 td {

@@ -1,9 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-repeat: no-repeat;
   background: linear-gradient(to right, #0575E6, #00F260);
-  color: #333;
   line-height: 1.6;
   font-size: 2vmin;
   font-family: 'Comfortaa';
@@ -28,7 +26,7 @@ header {
 
 h1,
 h3 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   color: #2c3e50;
 }
 

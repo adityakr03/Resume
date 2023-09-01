@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  object-fit: cover;
+  background: linear-gradient(to right, #0575E6, #00F260);
   color: #333;
   line-height: 1.6;
   font-size: 2vmin;

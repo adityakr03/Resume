@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-size: cover;
   background: linear-gradient(to right, #0575E6, #00F260);
   line-height: 1.6;
   font-size: 2vmin;
